@@ -5,7 +5,7 @@
 ;;; Package manager config
 ;;; ======================
 (setq package-list '(clojure-mode paredit rainbow-delimiters
-		     markdown-mode adaptive-wrap))
+		     markdown-mode adaptive-wrap lineno))
 (add-to-list 'package-archives
              '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (package-initialize)
@@ -39,6 +39,7 @@
 
 ;; Interface options
 (line-number-mode)
+(linum-mode)
 (column-number-mode)
 (load-theme 'wombat)
 
