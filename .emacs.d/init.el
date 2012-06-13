@@ -39,7 +39,7 @@
 
 ;; Interface options
 (line-number-mode)
-(linum-mode)
+(global-linum-mode)
 (column-number-mode)
 (load-theme 'wombat)
 
